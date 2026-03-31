@@ -3,7 +3,7 @@ Plugin em python para ajustar cores de várias imagens em uma determinada pasta
 
 ## COMO UTILIZAR
 
-Coloque o script na pasta ~/.config/GIMP/3.0/plugins/ajusta-cores/ajusta-cores.py
+Coloque o script na pasta ~/.config/GIMP/3.0/plug-ins/ajusta-cores//ajusta-cores.py
 
 Reinicie o GIMP
 
