@@ -140,7 +140,7 @@ def estica_histograma(drawable):
     return None
 
 def run(procedure, run_mode, image, drawables, config, data):
-    entrada, saida = obter_pastas(True)
+    entrada, saida = obter_pastas()
     arquivosJpg = [ f for f in os.listdir(entrada) if f.lower().endswith((".jpg", ".jpeg")) ]; arquivosJpg.sort()
     total = len(arquivosJpg)
     #for arquivoJpg in arquivosJpg:
